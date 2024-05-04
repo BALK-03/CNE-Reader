@@ -21,11 +21,10 @@
 ### 1. What is CNE-Reader ?
 
 *CNE-Reader* is a notebook that utilizes the [TensorFlow 2 Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) to train an *SSD-MobileNet* model and convert it to *TensorFlow Lite* format. Its purpose is to extract information from student ID cards issued by the [National Institute of Posts and Telecommunications - INPT](https://www.inpt.ac.ma/).
-
-<br><br><br>
+<br><br>
 ### 2. How does it work ?
 *CNE-Reader* comprises two main steps. Firstly, we employ [Transfer Learning](https://www.ibm.com/topics/transfer-learning) to train a model capable of localizing **Matricule numbers** and **Full Names** on the student ID cards. Subsequently, we utilize the [PyTesseract](https://pypi.org/project/pytesseract/) library to extract text from the localized zones. For further details on the model, refer to the *ocr_model* notebook.
-<br><br><br>
+<br><br>
 ### 3. How to run the project ?
 If you only intend to use the model, download requirements.txt and upload it to Colab. Then, execute `!pip install -r requirements.txt`. Alternatively, if you plan to run the model's source code, there is no need to install the requirements.
 
@@ -33,7 +32,7 @@ If you only intend to use the model, download requirements.txt and upload it to 
     3. 2. Open the model_test.ipynb notebook on Google Colab.
     3. 3. Follow the steps outlined in the notebook.
 
-<br><br><br>
+
 ### 4. Model Process Overview  
 
 ### 4.1. Image Preprocessing  
@@ -46,9 +45,7 @@ If you only intend to use the model, download requirements.txt and upload it to 
 
 ### 4.3. Text Recognition
   Utilizing OpenCV to process the localized images before feeding them to PyTesseract to read the text.
-
-
-<br><br><br>
+<br><br>
 ### 5. References
 	
 [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
