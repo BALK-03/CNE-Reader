@@ -1,14 +1,6 @@
 <img src="https://github.com/BALK-03/OCR/assets/145299162/5d580b38-8561-4e59-a8bc-b5c453a8aadf" width="900">
 
-<br><br><br><br>
-### Table of Contents
 
-
-- [What is CNE-Reader?](#what-is-cne-reader)
-- [How does it work?](#how-does-it-work)
-- [How to run the project?](#how-to-run-the-project)
-- [Model Process Overview](#model-process-overview)
-- [References](#references)
 
 <br><br><br><br>
 
