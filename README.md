@@ -46,7 +46,7 @@ If you only intend to use the model, download requirements.txt and upload it to 
 	
 [TensorFlow Lite Object Detection](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi)
 	
-[Colah](chat.openai.com)
+[Colah](https://colah.github.io/)
 
 
 
